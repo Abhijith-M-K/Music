@@ -1,0 +1,14 @@
+.Home{
+    display: grid;
+    grid-template-columns: 20% auto !important;
+    gap: 10px;
+}
+.footer{
+    position: fixed;
+    bottom: 0%;
+    
+    height: 15%;
+    width : 78%;
+    padding-bottom: 10px;
+    text-align: center;
+}

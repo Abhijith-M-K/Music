@@ -1,0 +1,56 @@
+.Sidebar{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+height: 100vh;
+/* background-color: antiquewhite; */
+
+
+}
+
+.sidebar_menu{
+    display: flex;
+    flex-direction: column;
+    padding: 6px;
+    gap: 5px;
+}
+
+.sidebar_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 20px;
+    color: blueviolet;
+    margin-top: 8px;
+}
+
+.menu_details{
+   
+    background: bisque;
+    display: flex;
+    gap: 10px;
+    padding: 10px 20px;
+}
+
+.active{
+    background-color: lightblue;
+    border-right: 3px solid blue;
+}
+
+.menu_text{
+    color: blue;
+}
+
+.logout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 20px 10px;
+    gap: 10px;
+}
+
+.logout .menu_text{
+    color: black;
+}

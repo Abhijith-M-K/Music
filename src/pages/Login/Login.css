@@ -1,0 +1,49 @@
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    gap: 7px;
+
+    
+   
+}
+.signin{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 40px;
+    font-weight: 500;
+    color: blueviolet;
+}
+.phone{
+ 
+  padding: 5px;
+}
+
+.para{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 10px;
+}
+
+.submit_button{
+    width: 100%;
+    margin-top: 8px;
+}
+.submit_button button{
+    width: 100%;
+    color:white;
+    background-color: blueviolet;
+    border: none;
+    padding: 6px 0;
+    border-radius: 8px;
+}

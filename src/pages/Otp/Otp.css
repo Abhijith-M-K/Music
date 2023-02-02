@@ -1,0 +1,51 @@
+.input-container{
+    width: 40px;
+    height: 40px;
+   
+
+  }
+  
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+   
+    width: 20rem;
+}
+.otp_signin{
+    display: flex;
+    flex-direction: column;
+   align-content: center;
+    color: rgb(191, 1, 254);
+    font-weight: bold;
+    font-size: 22px;
+}
+.otp_input{
+    border: 1px;
+    border-color: black;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.Button{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+    background:  rgb(191, 1, 254);
+    border: none;
+    border-radius: 5px;
+  }
+
+  .otp_para{
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px
+  }
